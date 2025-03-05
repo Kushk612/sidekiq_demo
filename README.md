@@ -26,15 +26,15 @@ Things you may want to cover:
 
 
 commands used to crated the sidekiq:
-cd video_sidekiq/
-code .
-bundle add sidekiq
-rails g controller pages home
-rails g sidekiq:job hello
-bundle add devise
-rails g devise:install
-rails g devise user
-rails g migration AddAdminToUser admin:boolean
-rails db:migrate
-rails db:seed
-bin/dev
+ * cd video_sidekiq/
+ * code .
+ * bundle add sidekiq
+ * rails g controller pages home
+ * rails g sidekiq:job hello
+ * bundle add devise
+ * rails g devise:install
+ * rails g devise user
+ * rails g migration AddAdminToUser admin:boolean
+ * rails db:migrate
+ * rails db:seed
+ * bin/dev
